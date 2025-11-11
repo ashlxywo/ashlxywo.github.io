@@ -1,0 +1,28 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./images/placeholderabout.jpg",
+      "title": "yabababab",
+      "description": "doihlkshdfoikldshflshfdlkfd"
+    },
+    {
+      "id": "2",
+      "src": "./images/placeholderabout.jpg",
+      "title": "yabababab",
+      "description": "doihlkshdfoikldshflshfdlkfd"
+    },
+    {
+      "id": "3",
+      "src": "./images/placeholderabout.jpg",
+      "title": "yabababab",
+      "description": "doihlkshdfoikldshflshfdlkfd"
+    },
+    {
+      "id": "4",
+      "src": "./images/placeholderabout.jpg",
+      "title": "yabababab",
+      "description": "doihlkshdfoikldshflshfdlkfd"
+    }
+  ]
+}
