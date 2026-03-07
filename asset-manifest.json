@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d60366c2.css",
-    "main.js": "/static/js/main.54b2e22d.js",
-    "static/media/Inter_18pt-SemiBold.ttf": "/static/media/Inter_18pt-SemiBold.d52a01d17b566af4e096.ttf",
-    "static/media/proximanova_regular.ttf": "/static/media/proximanova_regular.8181ca4b7c2d1189d78a.ttf",
-    "static/media/Questrial-Regular.ttf": "/static/media/Questrial-Regular.e2807c3c18afed9f8f34.ttf",
-    "static/media/DMSerifText-Regular.ttf": "/static/media/DMSerifText-Regular.c63bc97c84c421f39c7a.ttf",
-    "index.html": "/index.html",
-    "main.d60366c2.css.map": "/static/css/main.d60366c2.css.map",
-    "main.54b2e22d.js.map": "/static/js/main.54b2e22d.js.map"
+    "main.css": "/ashlxywo.github.io/static/css/main.bed50e32.css",
+    "main.js": "/ashlxywo.github.io/static/js/main.54b2e22d.js",
+    "static/media/Inter_18pt-SemiBold.ttf": "/ashlxywo.github.io/static/media/Inter_18pt-SemiBold.d52a01d17b566af4e096.ttf",
+    "static/media/proximanova_regular.ttf": "/ashlxywo.github.io/static/media/proximanova_regular.8181ca4b7c2d1189d78a.ttf",
+    "static/media/Questrial-Regular.ttf": "/ashlxywo.github.io/static/media/Questrial-Regular.e2807c3c18afed9f8f34.ttf",
+    "static/media/DMSerifText-Regular.ttf": "/ashlxywo.github.io/static/media/DMSerifText-Regular.c63bc97c84c421f39c7a.ttf",
+    "index.html": "/ashlxywo.github.io/index.html",
+    "main.bed50e32.css.map": "/ashlxywo.github.io/static/css/main.bed50e32.css.map",
+    "main.54b2e22d.js.map": "/ashlxywo.github.io/static/js/main.54b2e22d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d60366c2.css",
+    "static/css/main.bed50e32.css",
     "static/js/main.54b2e22d.js"
   ]
 }
