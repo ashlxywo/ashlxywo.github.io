@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ashlxywo.github.io/ashlxywo.github.io",
+  "homepage": "https://ashlxywo.github.io",
   "engines": {
     "node": ">=12.x"
   },

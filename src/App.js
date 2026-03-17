@@ -1,15 +1,30 @@
 import './App.css';
 import React from "react";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+
 import Navbar from './Pages/Home/Navbar';
 import Home from './Pages/Home/Homescreen';
-import Projects from './Pages/Home/Projects';
+import Jar from './Pages/Jar/Jar';
+
+function MainPage() {
+  return (
+    <>
+      <Navbar />
+      <Home />
+    </>
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Home />
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/jar" element={<Jar />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

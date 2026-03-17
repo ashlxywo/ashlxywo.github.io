@@ -1,0 +1,66 @@
+.jar-page {
+  text-align: center;
+  padding: 2vw;
+  font-family: inter_serif;
+  background-color: #ffffff;
+  color: #000000;
+  min-height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.jar-page.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.jar-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+.jar-img {
+  width: 40vw;
+}
+
+.drop-item {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  top: -60px;
+  animation: dropAnimation 0.6s ease forwards;
+}
+
+@keyframes dropAnimation {
+  0% { top: -60px; opacity: 1; }
+  70% { top: 120px; opacity: 1; }
+  100% { top: 140px; opacity: 0; }
+}
+
+.jar-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;        
+  margin-bottom: 1vh;
+	margin-top: 1vh;
+}
+
+.drop-button,
+.reset-button,
+.dark-button {
+  padding: 1vw 2vh;
+  font-size: 1vw;
+  font-family: lexend;
+  cursor: pointer;
+  margin: 0; 
+}
+
+.count-text {
+  margin-top: 1vh;  
+  font-size: 18px;
+  text-align: center;
+}
