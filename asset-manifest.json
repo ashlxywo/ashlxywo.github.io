@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.99da9950.css",
-    "main.js": "/static/js/main.1a85daec.js",
+    "main.css": "/static/css/main.f28ec051.css",
+    "main.js": "/static/js/main.a806e729.js",
     "static/media/Inter_18pt-SemiBold.ttf": "/static/media/Inter_18pt-SemiBold.d52a01d17b566af4e096.ttf",
     "static/media/proximanova_regular.ttf": "/static/media/proximanova_regular.8181ca4b7c2d1189d78a.ttf",
     "static/media/Questrial-Regular.ttf": "/static/media/Questrial-Regular.e2807c3c18afed9f8f34.ttf",
     "static/media/DMSerifText-Regular.ttf": "/static/media/DMSerifText-Regular.c63bc97c84c421f39c7a.ttf",
     "index.html": "/index.html",
-    "main.99da9950.css.map": "/static/css/main.99da9950.css.map",
-    "main.1a85daec.js.map": "/static/js/main.1a85daec.js.map"
+    "main.f28ec051.css.map": "/static/css/main.f28ec051.css.map",
+    "main.a806e729.js.map": "/static/js/main.a806e729.js.map"
   },
   "entrypoints": [
-    "static/css/main.99da9950.css",
-    "static/js/main.1a85daec.js"
+    "static/css/main.f28ec051.css",
+    "static/js/main.a806e729.js"
   ]
 }
