@@ -27,7 +27,7 @@ export default function AboutMe() {
           </p>
         </div>
         <div className="aboutMe-img">
-          <img src="./images/about_me.jpg" alt="aboutMe" />
+          <img src="/images/about_me.jpg" alt="aboutMe" />
         </div>
       </div>
     </section>
