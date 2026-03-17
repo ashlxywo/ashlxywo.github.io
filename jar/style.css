@@ -1,0 +1,27 @@
+body{
+    text-align:center;
+    font-family:Arial;
+}
+
+#jar-container{
+    position:relative;
+    width:300px;
+    margin:auto;
+}
+
+#jar{
+    width:100%;
+}
+
+#items{
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    width:260px;
+    height:320px;
+}
+
+.item{
+    width:40px;
+    position:absolute;
+}
