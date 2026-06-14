@@ -103,7 +103,7 @@ function Navbar() {
                     <Link
                       onClick={() => { setProjectsOpen(false); closeMenu(); }}
                       smooth={true}
-                      offset={-70}
+                      offset={-120}
                       duration={500}
                       to={project.id}
                       className="dropdown-item"
@@ -117,69 +117,6 @@ function Navbar() {
           </li>
         </ul>
       </div>
-
-      <style>{`
-        .dropdown-wrapper {
-          position: relative;
-        }
-      .dropdown-trigger {
-        background: none;
-        border: none;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        gap: 4px;
-        padding: 0;
-        font: inherit;
-        color: inherit;
-        vertical-align: middle; 
-        line-height: normal;     
-      }
-
-        .dropdown-arrow {
-          display: inline-block;
-          font-size: 1.4em;
-          transition: transform 0.2s ease;
-          line-height: 1;
-        }
-
-        .dropdown-arrow.open {
-          transform: rotate(180deg);
-        }
-
-        .dropdown-menu {
-          position: absolute;
-          top: calc(100% + 10px);
-          left: 50%;
-          transform: translateX(-50%);
-          background: white;
-          border-radius: 8px;
-          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-          min-width: 160px;
-          padding: 6px 0;
-          list-style: none;
-          z-index: 999;
-          animation: fadeDown 0.15s ease;
-        }
-
-        @keyframes fadeDown {
-          from { opacity: 0; transform: translateX(-50%) translateY(-6px); }
-          to   { opacity: 1; transform: translateX(-50%) translateY(0); }
-        }
-
-        .dropdown-item {
-          display: block;
-          padding: 9px 18px;
-          cursor: pointer;
-          white-space: nowrap;
-          font-size: 0.9rem;
-          transition: background 0.15s;
-        }
-
-        .dropdown-item:hover {
-          background: #f5f5f5;
-        }
-      `}</style>
     </nav>
   );
 }

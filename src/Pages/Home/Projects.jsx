@@ -6,19 +6,31 @@ export default function Projects() {
 
         <div className="projects">
           <div id="project-airpressure" className="project">
-            <div className="project-media">
-              <img src="./images/fullcircuit.png" alt="Air pressure circuit board" className="project-image" />
-              <img src="./images/fullschematic.png" alt="Circuit schematic" className="project-image" />
+            <div className="airpressure-top">
+              <img src="./images/fullcircuit.png" alt="Air pressure circuit board" className="project-image airpressure-circuit" />
+              
+              <div className="project-info">
+                <h3>Air Pressure Monitor (Electric Circuits - Spring 2025)</h3>
+                <hr className="project-divider"/>
+                <p>Electric Circuits was structured to have one big group project spanning throughout the semester, 
+                  and ours was a circuit that monitored atmospheric air pressure. It used the input from 
+                  a cheap pressure sensor that broke the night before we presented the first part of the project. 
+                  The final version contained an astable and monostable multivibrator, multiple amplifiers and comparators, 
+                  a step down transformer, a full bridge rectifier, a low pass filter, and a differentiator.</p>
+              </div>
             </div>
-
-            <div className="project-info">
-              <h3>Air Pressure Monitor (Electric Circuits - Spring 2025)</h3>
-              <hr className="project-divider"/>
-              <p>Electric Circuits was structured to have one big group project spanning throughout the semester, 
-                and ours was a circuit that monitored atmospheric air pressure. It used the input from 
-                a cheap pressure sensor that broke the night before we presented the first part of the project. 
-                The final version contained an astable and monostable multivibrator, multiple amplifiers and comparators, 
-                a step down transformer, a full bridge rectifier, a low pass filter, and a differentiator.</p>
+           
+            <br></br>
+           
+            <div className="airpressure-bottom">
+              <img src="./images/fullschematic.png" alt="Circuit schematic" className="project-image airpressure-schematic" />
+              <p className="airpressure-extra">Your additional text here...</p>
+              <div className="airpressure-image-row">
+                <img src="./images/transformer.jpg" alt="transformer" className="project-image airpressure-transformer" />
+                <img src="./images/bridge.png" alt="rectifier" className="project-image airpressure-rectifier" />
+                <img src="./images/voltage regulator.png" alt="voltage-regulator" className="project-image airpressure-regulator" />
+                <img src="./images/lowpassfilter.jpg" alt="low-pass-filter" className="project-image airpressure-filter" />
+              </div>
             </div>
 
           </div>

@@ -195,6 +195,66 @@ h3 {
   color: #1C2541;
 }
 
+.dropdown-wrapper {
+  position: relative;
+}
+.dropdown-trigger {
+background: none;
+border: none;
+cursor: pointer;
+display: flex;
+align-items: center;
+gap: 4px;
+padding: 0;
+margin: 0;
+font-family: inherit;
+}
+
+.dropdown-arrow {
+display: inline-block;
+font-size: 0.75em;     /* relative to the button text size */
+transition: transform 0.2s ease;
+line-height: 1;
+vertical-align: middle;
+}
+
+.dropdown-arrow.open {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  min-width: 160px;
+  padding: 6px 0;
+  list-style: none;
+  z-index: 999;
+  animation: fadeDown 0.15s ease;
+}
+
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateX(-50%) translateY(-6px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+.dropdown-item {
+  display: block;
+  padding: 9px 18px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 0.9rem;
+  transition: background 0.15s;
+}
+
+.dropdown-item:hover {
+  background: #f5f5f5;
+}
+
 /* About Me */
 .aboutMe-content {
   margin-top: 0;
@@ -205,11 +265,13 @@ h3 {
 
 .aboutMe-body {
   display: flex;
-  align-items: flex-start;   
+  align-items: flex-start;
   justify-content: flex-start;
-  margin-left: 17vw;       
+  margin-left: 17vw;
+  margin-right: 17vw;   
   margin-top: 2vh;
-  gap: 4vw;                  
+  gap: 4vw;
+  max-width: 66vw;  
 }
 
 .aboutMe-desc {
@@ -369,6 +431,7 @@ h3 {
 /* Clubs */
 .extracurriculars-content {
   padding-left: 17vw;
+  padding-right: 17vw;
   margin-top: 0;
   display: flex;
   flex-direction: column;
@@ -399,7 +462,7 @@ h3 {
 }
 
 .club-info {
-  max-width: 40vw;
+  max-width: 50vw;
 }
 
 .club-info h3 {
@@ -454,13 +517,17 @@ h3 {
 }
 
 /* Individual project section */
-.project {
+css.project {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 20px;
   align-items: flex-start;
-  flex-wrap: wrap;
   margin-bottom: 2vh;
+  max-width: 66vw;
+}
+
+.project-info {
+  max-width: 40vw;  
 }
 
 /* Media container (videos + images together) */
@@ -512,12 +579,54 @@ h3 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.airpressure-img-1 {
-  /* e.g. aspect-ratio: 3 / 2; */
+/* Air Pressure Section */
+.airpressure-circuit {
+  width: 20vw;        
+  aspect-ratio: 4 / 3; 
 }
 
-.airpressure-img-2 {
-  /* e.g. object-position: top; */
+.airpressure-schematic {
+  width: 68vw;
+  aspect-ratio: auto;   
+  object-fit: contain;  
+} 
+
+.airpressure-top {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.airpressure-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vh;
+  width: 100%;
+}
+
+.airpressure-extra {
+  font-family: lexend;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+  color: var(--darkblue);
+  margin: 0;
+}
+
+.airpressure-image-row {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  align-items: flex-start;
+}
+
+.airpressure-image-row .project-image {
+  width: 15.5vw;
+  aspect-ratio: 2 / 3; 
+  object-fit: cover;
+  object-position: center;
 }
 
 .dormlight-img-1 {
@@ -535,7 +644,7 @@ h3 {
 
 .project-info h3 {
   font-family: serif;
-  font-size: 22px;
+  font-size: 25px;
   color: var(--darkblue);
   margin-bottom: 0.5em;
 }
@@ -550,13 +659,15 @@ h3 {
 }
 
 .project-divider {
-  width: 47vw;
+  width: 100%;        
+  max-width: 66vw;
   height: 0.2vh;
   background-color: #1b2643;
   border: none;
   margin: 1vh 0 2vh 0;
   display: block;
 }
+
 
 /* Mobile */
 @media (max-width: 768px) {
