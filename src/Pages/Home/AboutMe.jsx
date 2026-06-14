@@ -8,11 +8,12 @@ export default function AboutMe() {
       <div className="aboutMe-body">
         <div className="aboutMe-desc">
           <p>
-            I'm a current junior at Rensselaer Polytechnic Institute pursuing an
+            I'm a current senior at Rensselaer Polytechnic Institute pursuing an
             undergraduate degree in computer and systems engineering with a
             concentration in robotics. After graduation, I plan to either go to
             graduate school or work in the industry. <br></br>
-            Currently, I work for the RPI Electrical, Computer, and Systems
+            Currently, I am a Hardware Developer Intern at IBM in Houston, Texas.
+            During the school year I work for the RPI Electrical, Computer, and Systems
             Engineering Department as a MercerX Lab Staff Member. I also do calculus
             tutoring for both RPI's Student Success Center and a virtual Algebra
             1/ELA tutor for a private school. Before working as MercerX staff, 
@@ -22,7 +23,7 @@ export default function AboutMe() {
             Government. I am also currently learning guitar and how to use
             Blender. <br/> <br/>
             Skills: Python, C, C++, HTML, CSS, JavaScript, MATLAB, LTSpice and circuit design, Microsoft Suite, Adobe Photoshop, 
-            embedded systems, communication, teaching
+            embedded systems, communication, teaching, ROS2, Gazebo, RViZ, test instrumentation
             
           </p>
         </div>

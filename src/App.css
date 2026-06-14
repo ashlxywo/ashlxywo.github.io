@@ -456,22 +456,43 @@ h3 {
 /* Individual project section */
 .project {
   display: flex;
-  flex-direction: row;        /* videos and text side by side */
+  flex-direction: row;
   gap: 20px;
   align-items: flex-start;
-  flex-wrap: wrap;            /* wrap on smaller screens */
+  flex-wrap: wrap;
   margin-bottom: 2vh;
 }
 
-/* Video container inside project */
-.project-videos {
+/* Media container (videos + images together) */
+.project-media {
   display: flex;
-  flex-direction: column;     /* stack videos vertically */
+  flex-direction: column;
   gap: 10px;
 }
 
-/* Video styling */
-.project-video,
+/* ── Videos ── */
+.project-videos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Base style for all project videos */
+.project-video {
+  width: 15vw;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Individual video overrides */
+.rc-main-video {
+  width: 15vw;
+  aspect-ratio: 16 / 9;   /* landscape — edit as needed */
+}
+
 .rc-display-video {
   width: 15vw;
   aspect-ratio: 1 / 1;
@@ -481,6 +502,33 @@ h3 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Images */
+.project-image {
+  width: 15vw;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.airpressure-img-1 {
+  /* e.g. aspect-ratio: 3 / 2; */
+}
+
+.airpressure-img-2 {
+  /* e.g. object-position: top; */
+}
+
+.dormlight-img-1 {
+  /* e.g. width: 12vw; */
+}
+
+.drawingbot-img-1 {
+  /* e.g. aspect-ratio: 16 / 9; */
+}
+
+/* ── Text ── */
 .project-info {
   max-width: 47vw;
 }
@@ -508,4 +556,26 @@ h3 {
   border: none;
   margin: 1vh 0 2vh 0;
   display: block;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+  }
+
+  .project-image,
+  .project-video,
+  .rc-main-video,
+  .rc-display-video {
+    width: 80vw;
+  }
+
+  .project-info {
+    max-width: 80vw;
+  }
+
+  .project-divider {
+    width: 80vw;
+  }
 }

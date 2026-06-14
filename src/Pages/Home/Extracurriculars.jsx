@@ -29,8 +29,10 @@ export default function Extracurriculars() {
             <h3>Student Government</h3>
             <p>
               Student government is a huge part of the RPI community. We have the three main branches just like the U.S.
-              government, and I am the secretary of the Student Senate. I attend meetings with both the Senate and the cabinet, which
-              consists of our committee chairs. We have committees,  where most of our Senate work gets done, for every part of the student
+              government, and I was the secretary of the Student Senate and am currently an Independent Senator. I attend weekly
+              Senate meetings to discuss student concerns and issues, helping to manager a $3 million budget for student clubs and activites. 
+              As an adovacy body, we also pass various policies to better the student experience, both academically and socially. 
+              We have committees,  where most of our Senate work gets done, for every part of the student
               experience such as academic affaris, student life, residental life and dining, and facilities. 
             </p>
           </div>

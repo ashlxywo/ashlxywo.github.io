@@ -41,6 +41,18 @@ function TimelineItem({ title, role, location, date, points, link }) {
 export default function MySkills() {
   const experiences = [
     {
+      title: "IBM",
+      role: "Hardware Developer Intern",
+      location: "Houston, Texas",
+      date: "May 2026 - Present",
+      points: [
+        "Tested and debugged multiple hardware boards by probing signal channels and validating electrical behavior across key interfaces",
+        "Utilized an oscilloscope to analyze signal integrity and characterize board performance under different voltage regulator conditions",
+        "Gained exposure to storage and memory technologies including NVMe, SSD architectures, and flash controller modules (FCM)",
+        "Used Cadence Allegro to build and modify PCB layouts and create a sandbox environment for design validation and experimentation"
+      ],
+    },
+    {
       title: "GO Tutor Corps",
       role: "Algebra 1 & English Tutor",
       location: "Virtual",
