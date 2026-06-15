@@ -42,6 +42,7 @@ export default function HomePage() {
 		<Extracurriculars />
 		<hr className = "section-divider" />
 		<Projects />
+		<hr className = "section-divider"/>
 		</>
 
 		);

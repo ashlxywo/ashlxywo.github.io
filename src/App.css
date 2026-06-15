@@ -517,7 +517,7 @@ vertical-align: middle;
 }
 
 /* Individual project section */
-css.project {
+.project {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -557,7 +557,7 @@ css.project {
 /* Individual video overrides */
 .rc-main-video {
   width: 15vw;
-  aspect-ratio: 16 / 9;   /* landscape — edit as needed */
+  aspect-ratio: 16 / 9; 
 }
 
 .rc-display-video {
@@ -565,6 +565,64 @@ css.project {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.microcontroller-top {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.microcontroller-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 66vw;
+  margin-top: 2vh;
+}
+
+.microcontroller-extra-wrapper {
+  flex: 1;
+  min-width: 0;        
+  overflow: hidden;
+}
+
+.microcontroller-extra {
+  font-family: lexend;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+  color: var(--darkblue);
+  margin: 0;
+  word-break: break-word;
+}
+
+.microcontroller-image-row {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex-shrink: 0;
+  width: 15vw;
+}
+
+.rc-car {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.car-remote {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -604,6 +662,7 @@ css.project {
   flex-direction: column;
   gap: 1.5vh;
   width: 100%;
+  max-width: 68vw;
 }
 
 .airpressure-extra {
