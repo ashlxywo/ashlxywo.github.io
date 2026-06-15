@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4071e5e2.css",
-    "main.js": "/static/js/main.89f74c62.js",
+    "main.css": "/static/css/main.693b2157.css",
+    "main.js": "/static/js/main.dcb09f29.js",
     "static/media/Inter_18pt-SemiBold.ttf": "/static/media/Inter_18pt-SemiBold.d52a01d17b566af4e096.ttf",
     "static/media/proximanova_regular.ttf": "/static/media/proximanova_regular.8181ca4b7c2d1189d78a.ttf",
     "static/media/Questrial-Regular.ttf": "/static/media/Questrial-Regular.e2807c3c18afed9f8f34.ttf",
     "static/media/DMSerifText-Regular.ttf": "/static/media/DMSerifText-Regular.c63bc97c84c421f39c7a.ttf",
     "index.html": "/index.html",
-    "main.4071e5e2.css.map": "/static/css/main.4071e5e2.css.map",
-    "main.89f74c62.js.map": "/static/js/main.89f74c62.js.map"
+    "main.693b2157.css.map": "/static/css/main.693b2157.css.map",
+    "main.dcb09f29.js.map": "/static/js/main.dcb09f29.js.map"
   },
   "entrypoints": [
-    "static/css/main.4071e5e2.css",
-    "static/js/main.89f74c62.js"
+    "static/css/main.693b2157.css",
+    "static/js/main.dcb09f29.js"
   ]
 }
