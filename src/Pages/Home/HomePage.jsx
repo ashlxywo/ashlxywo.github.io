@@ -16,7 +16,6 @@ export default function HomePage() {
 					<p className = "homePagedescription"> 
 						 </p>
 				</div>
-				{/* <button className = "btn btn-primary">Get In Touch</button>*/}
 
 				 <div className = "socials">
           <a
