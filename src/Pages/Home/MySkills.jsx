@@ -44,12 +44,13 @@ export default function MySkills() {
       title: "IBM",
       role: "Hardware Developer Intern",
       location: "Houston, Texas",
-      date: "May 2026 - Present",
+      date: "May 2026 - August 2026",
       points: [
-        "Tested and debugged multiple hardware boards by probing signal channels and validating electrical behavior across key interfaces",
-        "Utilized an oscilloscope to analyze signal integrity and characterize board performance under different voltage regulator conditions",
-        "Gained exposure to storage and memory technologies including NVMe, SSD architectures, and flash controller modules (FCM)",
-        "Used Cadence Allegro to build and modify PCB layouts and create a sandbox environment for design validation and experimentation"
+        "Tested and debugged hardware boards by probing signal channels and validating electrical behavior across critical interfaces",
+        "Used oscilloscopes to characterize signal integrity and board performance under varying voltage regulator conditions",
+        "Investigated power-spike behavior by soldering hardware modifications onto FlashCore Module boards and executing controlled data runs",
+        "Analyzed NVMe, SSD, and flash controller architectures to develop familiarity with modern storage and memory systems"
+
       ],
     },
     {
@@ -79,7 +80,7 @@ export default function MySkills() {
       title: "Student Success Center at RPI",
       role: "Calculus Tutor",
       location: "Troy, NY",
-      date: "September 2024 - Present",
+      date: "September 2024 - May 2026",
       points: [
         "Provide one-on-one and group tutoring sessions for freshmen students in foundational calculus concepts, including limits, derivatives, and integrals",
         "Collaborate with a team of tutors to develop effective teaching strategies for mathematical skills",
@@ -151,7 +152,7 @@ export default function MySkills() {
       location: "Troy, NY",
       date: "August 2023 - May 2027",
       points: [
-        "Relevant Coursework: Robotics I, Embedded Control, Engineering Processes, Intro to Circuits, Multivariable Calculus and Matric Algebra, Intro to Algorithms, Data Structures, Engineer Communications, Intro to Electrical Computer and Systems Engieering, Differential Equations",
+        "Manipulator Kinematics & Dynamics, Control Systems Engineering, Mechatronics, Intro to Machine Learning, Intro to Robot Programming, Signals and Systems"
       ],
       /*link: "#" */
     },

@@ -475,22 +475,6 @@ vertical-align: middle;
   text-align: justify;
 }
 
-@media (max-width: 800px) {
-  .club {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .club-img {
-    width: 60vw;
-    height: 60vw;
-  }
-
-  .club-info {
-    max-width: 90%;
-  }
-}
-
 .section-divider {
   border: none;
   height: 2px;
@@ -664,20 +648,101 @@ vertical-align: middle;
   display: block;
 }
 
+/* IED */
+
+
 /* Mobile */
 @media (max-width: 768px) {
-  .project {
+  h1 { font-size: 36px; line-height: 44px; }
+  h3 { font-size: 20px; line-height: 26px; }
+
+  .navbar { padding: 1vh 4vw; }
+  .navbar-items > ul { gap: 4vw; }
+  .navbarcontent { font-size: 14px; }
+  .dropdown-menu { min-width: 130px; }
+
+  .homePage {
+    grid-template-columns: 1fr;
+    padding: 12vh 8vw;
+    row-gap: 4vh;
+  }
+  .homePageimg {
+    max-width: 60vw;
+    margin-left: 0;
+    height: 40vh;
+  }
+  .homePagecontentBox { max-width: 90vw; }
+  .homePagedescription { font-size: 16px; line-height: 28px; }
+
+  .aboutMe-content { margin-left: 8vw; }
+  .aboutMe-body {
     flex-direction: column;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    max-width: 90vw;
+  }
+  .aboutMe-desc { width: 84vw; }
+  .aboutMe-img {
+    width: 40vw;
+    height: 40vw;
+    margin-left: 0;
+  }
+  .social-icon { width: 10vw; }
+
+  .section-divider { margin: 2vh 8vw; }
+
+  .extracurriculars-content {
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+  .club { flex-direction: column; align-items: flex-start; }
+  .club-img { width: 60vw; height: 60vw; }
+  .club-info { max-width: 84vw; }
+
+  .projects-content {
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+  .project { max-width: 84vw; }
+
+  .project-row {
+    flex-direction: column;
+    max-width: 84vw;
+  }
+
+  .project-slot-left,
+  .project-slot-right,
+  .project-slot-center {
+    width: 100%;
+    max-width: 84vw;
   }
 
   .project-image,
   .project-video,
+  .rc-display-video,
   .rc-main-video,
-  .rc-display-video {
-    width: 80vw;
+  .rc-car,
+  .car-remote {
+    width: 100%;
   }
 
-  .project-divider {
-    width: 80vw;
+  .airpressure-circuit { width: 100%; }
+  .airpressure-schematic { width: 100%; }
+  .airpressure-image-row {
+    flex-wrap: wrap;
   }
+  .airpressure-image-row .project-image {
+    width: 40vw;
+  }
+
+  .project-divider { max-width: 84vw; }
+  .timeline-container { padding: 2% 2% 1% 2%; }
+  .timeline-title { margin-left: 4vw; }
+  .timeline-card {
+    width: 70vw;
+    margin-left: 8vw;
+    padding: 4vw;
+  }
+  .timeline-card h2 { font-size: 20px; }
+  .timeline-sub { font-size: 16px; }
 }

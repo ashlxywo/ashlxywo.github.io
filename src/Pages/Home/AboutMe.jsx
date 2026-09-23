@@ -10,11 +10,10 @@ export default function AboutMe() {
           <p>
             I'm a current senior at Rensselaer Polytechnic Institute pursuing an
             undergraduate degree in computer and systems engineering with a
-            concentration in robotics. After graduation, I plan to either go to
-            graduate school or work in the industry. <br></br>
-            Currently, I am a Hardware Developer Intern at IBM in Houston, Texas.
+            concentration in robotics. After graduation, I plan to work in the industry. <br></br>
+            Last summer, I was a Hardware Developer Intern at IBM in Houston, Texas.
             During the school year I work for the RPI Electrical, Computer, and Systems
-            Engineering Department as a MercerX Lab Staff Member. I also do calculus
+            Engineering Department as a MercerX Lab Staff Member. I have experience doing calculus
             tutoring for both RPI's Student Success Center and a virtual Algebra
             1/ELA tutor for a private school. Before working as MercerX staff, 
             I was an undergraduate researcher on Doug Mercer's Software
@@ -22,8 +21,10 @@ export default function AboutMe() {
             Outside of academics, I am part of RPI's Fencing Club and Student
             Government. I am also currently learning guitar and how to use
             Blender. <br/> <br/>
-            Skills: Python, C, C++, HTML, CSS, JavaScript, MATLAB, LTSpice and circuit design, Microsoft Suite, Adobe Photoshop, 
-            embedded systems, communication, teaching, ROS2, Gazebo, RViZ, test instrumentation
+            Certifications: MATLAB Onramp <br></br>
+            Technical: Adobe Photoshop & Illustrator, Microsoft Suite,  Python,  C,  C++, Siemens NX, MatLab, Simulink, ROS2, RVIZ, Gazebo <br></br>
+            Hardware: Oscilloscopes, Test Instrumentation, PCB Debugging & Modding
+
             
           </p>
         </div>
